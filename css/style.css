@@ -1,61 +1,59 @@
-body{
-	background-color: #000;
-	background-image:url("../images/motorcycle.jpg");
-	background-size:1150px;
-	background-repeat:no-repeat;
-	background-position:50% 50%;
-	background-attachment:fixed;
+body {
+    background-color: #000;
+    background-image: url(../images/motorcycle.jpg);
+    background-size: 1150px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
 }
 
-p, h1, h2, h3, h4, tr, td, caption {
-	color:#fff;
+p,h1,h2,h3,h4,tr,td,caption {
+    color: #fff;
 }
 
-p{
-	margin-top:20px;
+p {
+    margin-top: 20px;
 }
 
 /********* header styling *********/
-
-header .container{
-	background-color:rgba(0,0,0,.0);
+header .container {
+    background-color: rgba(0,0,0,.0);
 }
 
-.container{
-	background-color:rgba(0,0,0,.60);
+.container {
+    background-color: rgba(0,0,0,.60);
 }
 
-li a{
-	color:white;
-	margin-top:20px;
+li a {
+    color: #fff;
+    margin-top: 20px;
 }
 
 /********* main image styling *********/
 .mainimg {
-	background-image:url("../images/bike2.jpg");
-	background-position: bottom center;
+    background-image: url(../images/bike2.jpg);
+    background-position: bottom center;
     background-attachment: fixed;
-	background-size:cover;
-	background-repeat:no-repeat;
-	height:800px; 
-	border-bottom: 20px solid black;  
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    border-bottom: 20px solid #000;
 }
 
 /********* Table styling *********/
-
 caption {
-	text-align:center;
-	font-weight:bold;
+    text-align: center;
+    font-weight: 700;
 }
 
 td {
-	width:160px;
-	height:30px;
+    width: 160px;
+    height: 30px;
 }
 
-table, td, th {
+table,td,th {
     border: 3px solid #fff;
-    margin-right:0px;
+    margin-right: 0;
 }
 
 th {
@@ -63,13 +61,8 @@ th {
     color: #000;
 }
 
-#footer li{
-	display:inline;
-	margin-left:100px;
-	color:#fff;
+#footer li {
+    display: inline;
+    margin-left: 100px;
+    color: #fff;
 }
-
-
-
-
-
