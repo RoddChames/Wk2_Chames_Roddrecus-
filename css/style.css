@@ -1,7 +1,7 @@
 body{
 	background-color: #000;
 	background-image:url("../images/motorcycle.jpg");
-	background-size:1100px;
+	background-size:1150px;
 	background-repeat:no-repeat;
 	background-position:50% 50%;
 	background-attachment:fixed;
@@ -9,6 +9,10 @@ body{
 
 p, h1, h2, h3, h4, tr, td, caption {
 	color:#fff;
+}
+
+p{
+	margin-top:20px;
 }
 
 /********* header styling *********/
@@ -20,18 +24,24 @@ header .container{
 .container{
 	background-color:rgba(0,0,0,.60);
 }
-/* main image styling */
+
+li a{
+	color:white;
+	margin-top:20px;
+}
+
+/********* main image styling *********/
 .mainimg {
 	background-image:url("../images/bike2.jpg");
 	background-position: bottom center;
     background-attachment: fixed;
 	background-size:cover;
 	background-repeat:no-repeat;
-	height:700px; 
+	height:800px; 
 	border-bottom: 20px solid black;  
 }
 
-/* Table styling */
+/********* Table styling *********/
 
 caption {
 	text-align:center;
@@ -53,7 +63,13 @@ th {
     color: #000;
 }
 
-</style>
+#footer li{
+	display:inline;
+	margin-left:100px;
+	color:#fff;
+}
+
+
 
 
 
