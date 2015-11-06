@@ -1,0 +1,59 @@
+body{
+	background-color: #000;
+	background-image:url("../images/motorcycle.jpg");
+	background-size:1100px;
+	background-repeat:no-repeat;
+	background-position:50% 50%;
+	background-attachment:fixed;
+}
+
+p, h1, h2, h3, h4, tr, td, caption {
+	color:#fff;
+}
+
+/********* header styling *********/
+
+header .container{
+	background-color:rgba(0,0,0,.0);
+}
+
+.container{
+	background-color:rgba(0,0,0,.60);
+}
+/* main image styling */
+.mainimg {
+	background-image:url("../images/bike2.jpg");
+	background-position: bottom center;
+    background-attachment: fixed;
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:700px; 
+	border-bottom: 20px solid black;  
+}
+
+/* Table styling */
+
+caption {
+	text-align:center;
+	font-weight:bold;
+}
+
+td {
+	width:160px;
+	height:30px;
+}
+
+table, td, th {
+    border: 3px solid #fff;
+    margin-right:0px;
+}
+
+th {
+    background-color: #fff;
+    color: #000;
+}
+
+</style>
+
+
+
