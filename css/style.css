@@ -61,6 +61,26 @@ th {
     color: #000;
 }
 
+#store img{
+	width:150px;
+}
+
+#store li{
+	display:block;
+	float:left;
+	margin-left:90px;
+	margin-bottom:40px;
+}
+
+#store li a img{
+		box-shadow: 0px 0px 95px rgba(240,235,250,.80);
+}
+
+#store li a img:hover{
+			box-shadow: 0px 0px 50px rgba(240,235,250,.30);
+}
+
+
 #footer li {
     display: inline;
     margin-left: 100px;
