@@ -1,7 +1,8 @@
 body {
+	width:100%;
     background-color: #000;
     background-image: url(../images/motorcycle.jpg);
-    background-size: 1150px;
+    background-size: 78.875%;  /*1150px;*/
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-attachment: fixed;
@@ -12,15 +13,8 @@ p,h1,h2,h3,h4,tr,td,caption {
 }
 
 p {
-    margin-top: 20px;
+    margin-top: 1.25%;  /*20px;*/
 }
-
-/********* media queries *********/
-
-@media screen and (max-width:768px) {
-	p{color:red;}
-}
-
 
 
 /********* header styling *********/
@@ -51,11 +45,11 @@ li a {
 /********* Table styling *********/
 caption {
     text-align: center;
-    font-weight: 700;
+    font-weight: bold;
 }
 
 td {
-    width: 160px;
+    width: 16.666667%;
     height: 30px;
 }
 
@@ -69,16 +63,22 @@ th {
     color: #000;
 }
 
+iframe + p {
+	float:left;
+}
+
+
 /********** store section styling *********/
 
 #store img{
-	width:150px;
+	width: 150px; 
+	
 }
 
 #store li{
 	display:block;
 	float:left;
-	margin-left:90px;
+	margin-left: 9.375%; /*90px;*/
 	margin-bottom:40px;
 }
 
@@ -96,4 +96,65 @@ th {
     display: inline;
     margin-left: 100px;
     color: #fff;
+}
+
+/********* media queries *********/
+
+/********* media query for large devices *********/
+@media screen and (min-width:992px){
+		
+		body {
+	
+    background-color: #000;
+    background-image: url(../images/motorcycle.jpg);
+    background-size: max-width;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    p{color:blue;}
+	}
+
+		.center-block(max-width:768px;) {display: block; margin-left: auto; margin-right: auto;}
+}
+
+
+/********* media query for small devices *********/
+@media screen and (max-width:992px) {
+		
+		body {
+	width:100%;
+    background-color: #000;
+    background-image: url(../images/motorcycle.jpg);
+    background-size: max-width;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+}
+
+		body {background-color: #000; background-image:none;}
+		#store img {width:75px;}	
+		imap {margin-bottom:60px; width:max-width}
+		iframe + p {clear:both;}
+		.center-block(max-width:768px;) {display: block; margin-left: auto; margin-right: auto;}
+		h1, h2, h3{color:red;}
+
+}
+
+/********* media query for extra small devices *********/
+@media screen and (max-width:767px) {
+		
+		body {
+	width:100%;
+    background-color: #000;
+    background-image: none;
+    background-size: max-width;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+}
+		#store img {width:75px;}	
+		imap {margin-bottom:60px; width:max-width}
+		iframe + p {clear:both;}
+		.center-block(max-width:768px;) {display: block; margin-left: auto; margin-right: auto;}
+		h1, h2, h3{color:red;}
 }
