@@ -16,6 +16,10 @@ p {
     margin-top: 1.25%;  /*20px;*/
 }
 
+h2:nth-of-type(1n + 2){
+	text-align:center;
+}
+
 
 /********* header styling *********/
 header .container {
@@ -63,8 +67,12 @@ th {
     color: #000;
 }
 
-iframe + p {
-	float:left;
+#imap {
+	margin-top:35px;
+}
+
+#gearlist li {
+	color: #fff;
 }
 
 
@@ -93,9 +101,18 @@ iframe + p {
 /********* footer styling *********/
 
 #footer li {
-    display: inline;
-    margin-left: 100px;
-    color: #fff;
+	color:#fff;
+	width: 9.375%; /*150px;*/
+	display:inline;	
+	margin-left:60px;
+}
+
+#footer ul {
+	text-align:center;
+}
+
+#footer li:nth-of-type(1) {
+	margin-left:0px;	
 }
 
 /********* media queries *********/
@@ -136,25 +153,27 @@ iframe + p {
 		imap {margin-bottom:60px; width:max-width}
 		iframe + p {clear:both;}
 		.center-block(max-width:768px;) {display: block; margin-left: auto; margin-right: auto;}
-		h1, h2, h3{color:red;}
+		h1, h2, h3{color:blue;}
 
 }
 
 /********* media query for extra small devices *********/
 @media screen and (max-width:767px) {
-		
-		body {
-	width:100%;
-    background-color: #000;
-    background-image: none;
-    background-size: max-width;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-attachment: fixed;
-}
+
+		.container{width:100%;}
 		#store img {width:75px;}	
 		imap {margin-bottom:60px; width:max-width}
 		iframe + p {clear:both;}
 		.center-block(max-width:768px;) {display: block; margin-left: auto; margin-right: auto;}
 		h1, h2, h3{color:red;}
+}
+
+@media screen and (max-width:414px) {
+
+		.container{width:100%;}
+		#store img {width:75px;}	
+		imap {margin-bottom:60px; width:max-width}
+		iframe + p {clear:both;}
+		.center-block(max-width:768px;) {display: block; margin-left: auto; margin-right: auto;}
+		h1, h2, h3{color:pink;}
 }
