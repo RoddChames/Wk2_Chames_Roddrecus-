@@ -43,6 +43,7 @@ li a {
     background-image: url(../images/bike2.jpg);
     background-position: bottom center;
     background-attachment: fixed;
+    min-width:350px;
     background-size: cover;
     background-repeat: no-repeat;
     height: 800px;
