@@ -20,6 +20,9 @@ h2:nth-of-type(1n + 2){
 	text-align:center;
 }
 
+.center-block(max-width:1208px;) {display: block; margin-left: auto; margin-right: auto;}
+
+
 
 /********* header styling *********/
 header .container {
@@ -168,12 +171,16 @@ th {
 		h1, h2, h3{color:red;}
 }
 
+/********* media query for below 414px devices *********/
+
 @media screen and (max-width:414px) {
 
-		.container{width:100%;}
-		#store img {width:75px;}	
+		body{width:100%}
+		#store img {width:55px;}	
 		imap {margin-bottom:60px; width:max-width}
 		iframe + p {clear:both;}
 		.center-block(max-width:768px;) {display: block; margin-left: auto; margin-right: auto;}
-		h1, h2, h3{color:pink;}
+		h1, h2, h3{color:#ff0;}
+		
+		
 }
